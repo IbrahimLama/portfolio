@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: var(--nav-bg-dark);
+    color: var(--grey);
+    width: 100%;
+    font-family: var(--font-mono);
+    font-weight: 600;
+}
+
+.initials {
+    font-size: 30px;
+}
+
+.links {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.item {
+    display: inline;
+    margin-right: 20px;;
+}
